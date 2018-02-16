@@ -1,0 +1,41 @@
+{
+  "name": "n-map",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daninet/n-map.git"
+  },
+  "keywords": [
+    "map",
+    "maps",
+    "multiple",
+    "tuple",
+    "tuples",
+    "nmap",
+    "n-map",
+    "collection",
+    "many",
+    "items",
+    "values",
+    "subarray",
+    "array",
+    "deep",
+    "comparison"
+  ],
+  "author": "Daniel Biro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daninet/n-map/issues"
+  },
+  "homepage": "https://github.com/Daninet/n-map#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "jest": "^22.2.2"
+  }
+}
