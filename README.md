@@ -1,9 +1,6 @@
-n-map
-=======
-
-[![Build Status](https://travis-ci.org/Daninet/n-map.svg?branch=master)](https://travis-ci.org/Daninet/n-map)
-[![Coverage Status](https://coveralls.io/repos/github/Daninet/n-map/badge.svg?branch=master)](https://coveralls.io/github/Daninet/n-map?branch=master)
-[![license](https://img.shields.io/github/license/Daninet/n-map.svg)](https://github.com/Daninet/n-map/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/Daninet/n-dimensional-map.svg?branch=master)](https://travis-ci.org/Daninet/n-dimensional-map)
+[![Coverage Status](https://coveralls.io/repos/github/Daninet/n-dimensional-map/badge.svg?branch=master)](https://coveralls.io/github/Daninet/n-dimensional-map?branch=master)
+[![license](https://img.shields.io/github/license/Daninet/n-dimensional-map.svg)](https://github.com/Daninet/n-dimensional-map/blob/master/LICENSE)
 
 Allows to put arrays into maps. Works similarly like ES6 Maps.
 
