@@ -10,13 +10,13 @@ Allows to put arrays into maps. Works similarly like ES6 Maps.
 Install
 =======
 ```
-npm i n-map
+npm i n-dimensional-map
 ```
 
 Example
 =======
 ```javascript
-const NMap = require('n-map');
+const NMap = require('n-dimensional-map');
 const map = new NMap();
 map.set(1, 'a');
 map.set(2, 'b');
