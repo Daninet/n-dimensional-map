@@ -1,6 +1,6 @@
 {
   "name": "n-dimensional-map",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Allows to put arrays into maps. Works similarly like ES6 Maps.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daninet/n-map.git"
+    "url": "git+https://github.com/Daninet/n-dimensional-map.git"
   },
   "keywords": [
     "map",
@@ -31,9 +31,9 @@
   "author": "Daniel Biro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Daninet/n-map/issues"
+    "url": "https://github.com/Daninet/n-dimensional-map/issues"
   },
-  "homepage": "https://github.com/Daninet/n-map#readme",
+  "homepage": "https://github.com/Daninet/n-dimensional-map#readme",
   "devDependencies": {
     "coveralls": "^3.0.0",
     "eslint": "^4.19.1",
