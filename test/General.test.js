@@ -1,8 +1,9 @@
 'use strict';
+/* global test, expect */
 
 const NMap = require('../');
 
-function toArray(map) {
+function toArray (map) {
   const arr = [];
   map.forEach(it => arr.push(it));
   return arr;
@@ -188,7 +189,6 @@ test('clear', () => {
   expect(map.size).toBe(1);
   expect(toArray(map)).toEqual([ [[2], 'a'] ]);
 });
-
 
 test('inspect', () => {
   const map = new NMap();
