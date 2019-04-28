@@ -1,13 +1,14 @@
 'use strict';
+/* global test, expect */
 
 const NMap = require('../');
 const NMAX = 50;
 
-function randInt(min, max) {
+function randInt (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function compareArrayAndMap(arr, map) {
+function compareArrayAndMap (arr, map) {
   arr.forEach(it => {
     expect(map.has(it)).toEqual(true);
     expect(map.has([...it, 100])).toBe(false);
